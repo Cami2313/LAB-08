@@ -1,0 +1,24 @@
+.listContainer {
+    background-color: #c0dcc3;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 1%;
+    font-family: Arial, sans-serif;
+}
+
+.listContainer h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #696969;
+}
+
+.listContainer li {
+    text-align: left;
+    list-style: none;
+    font-size: 1.5em;
+    color: #696969;
+}
+
+.listContainer li input:checked + label {
+    text-decoration: line-through;
+}
